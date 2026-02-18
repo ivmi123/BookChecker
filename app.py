@@ -11,7 +11,7 @@ if "books" not in st.session_state:
     ]
 
 # ---------- APP TITLE ----------
-st.title("📚 Book Manager & Checker App")
+st.title("Book Checker App")
 
 st.write("Add new books or check if a book exists in the database.")
 
@@ -19,7 +19,7 @@ st.write("Add new books or check if a book exists in the database.")
 # ADD BOOK SECTION
 # ==================================================
 
-st.subheader("➕ Add a New Book")
+st.subheader("Add a New Book")
 
 title = st.text_input("Title")
 author = st.text_input("Author")
