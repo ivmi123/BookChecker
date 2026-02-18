@@ -36,7 +36,7 @@ if st.button("Add Book"):
 # CHECK BOOK SECTION
 # ==================================================
 
-st.subheader("🔍 Check if a Book Exists")
+st.subheader("Check if a Book Exists")
 
 check_title = st.text_input("Enter book title to check")
 
@@ -58,7 +58,7 @@ if st.button("Check Book"):
 # DISPLAY ALL BOOKS
 # ==================================================
 
-st.subheader("📖 Book List")
+st.subheader("Book List")
 
 for book in st.session_state.books:
     st.write(f"**{book['title']}** by {book['author']}")
